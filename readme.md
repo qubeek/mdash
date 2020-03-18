@@ -17,6 +17,8 @@ $ composer require qubeek/mdash
 
 ## Usage
 
+Example of use is in the example.php
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
