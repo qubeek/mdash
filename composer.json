@@ -1,0 +1,43 @@
+{
+    "name": "qubeek/mdash",
+    "description": ":package_description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "qubeek",
+            "email": "author email",
+            "homepage": "https://github.com/qubeek"
+        }
+    ],
+    "homepage": "https://github.com/qubeek/mdash",
+    "keywords": ["Laravel", "mdash"],
+    "require": {
+        "illuminate/support": "~6|~7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "qubeek\\mdash\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "qubeek\\mdash\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "qubeek\\mdash\\mdashServiceProvider"
+            ],
+            "aliases": {
+                "mdash": "qubeek\\mdash\\Facades\\mdash"
+            }
+        }
+    }
+}
