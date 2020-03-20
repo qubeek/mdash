@@ -35,8 +35,8 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [qubeek](https://github.com/qubeek/mdash)
 - [Типограф Муравьева](http://mdash.ru/)
+- [雨師](https://github.com/tttptd)
 
 ## License
 
