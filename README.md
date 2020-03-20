@@ -37,6 +37,7 @@ If you discover any security related issues, please email author email instead o
 
 - [Типограф Муравьева](http://mdash.ru/)
 - [雨師](https://github.com/tttptd)
+- [JeroenG](https://github.com/Jeroen-G)
 
 ## License
 
