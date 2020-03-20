@@ -10,8 +10,8 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Package">
-            <directory suffix=".php">./tests/</directory>
+        <testsuite name="Packages">
+            <directory suffix="EMTTest.php">.tests/mdash/qubeek/packages</directory>
         </testsuite>
     </testsuites>
     <filter>
