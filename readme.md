@@ -15,6 +15,12 @@ Via Composer
 $ composer require qubeek/mdash
 ```
 
+For best prectice with library use comprehensive library for generating diff between two strings.
+
+``` bash
+$ composer require jfcherng/php-diff
+```
+
 ## Usage
 
 Example of use is in the example.php
@@ -39,8 +45,8 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
-- [All Contributors][link-contributors]
+- [qubeek](https://github.com/qubeek/mdash)
+- [Типограф Муравьева](http://mdash.ru/)
 
 ## License
 
