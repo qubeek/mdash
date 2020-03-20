@@ -2,8 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
 
 This package works on the basis of the Muravyov typograph. It is intended for formatting text using the norms, rules and specifics of the Russian language and screen typography.
 
@@ -24,10 +22,6 @@ $ composer require jfcherng/php-diff
 ## Usage
 
 Example of use is in the example.php
-
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
 
 ## Testing
 
