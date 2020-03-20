@@ -13,7 +13,6 @@
     "keywords": ["Laravel", "mdash"],
     "require": {
         "illuminate/support": "~6|~7",
-        "jfcherng/php-diff": "^6.6"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0",
