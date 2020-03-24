@@ -4,7 +4,7 @@ namespace qubeek\mdash;
 
 use Illuminate\Support\ServiceProvider;
 
-class mdashServiceProvider extends ServiceProvider
+class MdashServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
