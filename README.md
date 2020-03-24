@@ -2,8 +2,9 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
+[![StyleCI](https://github.styleci.io/repos/248169210/shield?branch=master)](https://github.styleci.io/repos/248169210)
 
-This package works on the basis of the Muravyov typograph. It is intended for formatting text using the norms, rules and specifics of the Russian language and screen typography.
+This package works based on the Muravyov typograph. It is intended for formatting text using the norms, rules, and specifics of the Russian language and screen typography.
 
 ## Installation
 
@@ -13,7 +14,7 @@ Via Composer
 $ composer require qubeek/mdash
 ```
 
-For best prectice with library use comprehensive library for generating diff between two strings.
+For best practice with the library use a comprehensive library for generating diff between two strings.
 
 ``` bash
 $ composer require jfcherng/php-diff
@@ -31,7 +32,7 @@ $ composer test
 
 ## Security
 
-If you discover any security related issues, please email author email instead of using the issue tracker.
+If you discover any security-related issues, please email the author's email instead of using the issue tracker.
 
 ## Credits
 
