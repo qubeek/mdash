@@ -1,13 +1,13 @@
 <?php
 
-use qubeek\mdash\EMTypograph;
 use PHPUnit\Framework\TestCase;
+use qubeek\mdash\EMTypograph;
 
 class EMTTest extends TestCase
 {
 
     /**
-     * Тестирует корректное добавление верхнего индекса к единицам площади/объема
+     * Тестирует корректное добавление верхнего индекса к единицам площади/объема.
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EMTTest extends TestCase
             [
                 'text' => 'Сегодня проходим §&nbsp;5',
                 'result' => '<p>Сегодня проходим &sect;&thinsp;5</p>',
-            ]
+            ],
         ];
 
         foreach ($tests as $test) {
