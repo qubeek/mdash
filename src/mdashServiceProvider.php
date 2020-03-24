@@ -48,6 +48,7 @@ class mdashServiceProvider extends ServiceProvider
     {
         return ['mdash'];
     }
+    
     /**
      * Console-specific booting.
      *
