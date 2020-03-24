@@ -4,7 +4,7 @@ namespace qubeek\mdash\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class mdash extends Facade
+class Mdash extends Facade
 {
     /**
      * Get the registered name of the component.
