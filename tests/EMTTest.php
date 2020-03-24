@@ -5,7 +5,6 @@ use qubeek\mdash\EMTypograph;
 
 class EMTTest extends TestCase
 {
-
     /**
      * Тестирует корректное добавление верхнего индекса к единицам площади/объема.
      *
@@ -13,7 +12,6 @@ class EMTTest extends TestCase
      */
     public function testSuperscriptForSquareUnits()
     {
-
         $tests = [
             [
                 'text' => 'Размер изделия 50х31',
