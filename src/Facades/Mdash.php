@@ -13,6 +13,6 @@ class Mdash extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'mdash';
+        return EMTypograph::class;
     }
 }
