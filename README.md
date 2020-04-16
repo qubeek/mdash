@@ -24,6 +24,12 @@ $ composer require jfcherng/php-diff
 
 Example of use is in the example.php
 
+For launch a typograph with default settings use: 
+
+``` php
+$result = EMTypograph::pretty($text);
+```
+
 ## Testing
 
 ``` bash
