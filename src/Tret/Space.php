@@ -3,6 +3,7 @@
 namespace qubeek\mdash\Tret;
 
 use qubeek\mdash\Tret;
+use qubeek\mdash\Lib;
 
 /**
  * @see EMT_Tret
@@ -54,7 +55,7 @@ class Space extends Tret
             'replacement' 	=> [
                 //'\1\2. \4',
                 '$m[1].$m[2]."." .( $m[5] == "." ? "" : " ").$m[4].$m[5]',
-                '$m[1].$m[2]."." .(in_array(EMT\Lib::strtolower($m[3]), $this->domain_zones)? "":( $m[4] == "." ? "" : " ")). $m[3].$m[4]',
+                '$m[1].$m[2]."." .(in_array(Lib::strtolower($m[3]), $this->domain_zones)? "":( $m[4] == "." ? "" : " ")). $m[3].$m[4]',
             ],
         ],
         'autospace_after_hellips' => [
