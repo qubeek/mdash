@@ -1,11 +1,11 @@
 {
     "name": "qubeek/mdash",
     "description": ":package_description",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "qubeek",
-            "email": "author email",
+            "email": "hello@qubeek.io",
             "homepage": "https://github.com/qubeek"
         }
     ],
