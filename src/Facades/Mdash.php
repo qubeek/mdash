@@ -3,6 +3,7 @@
 namespace qubeek\mdash\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use qubeek\mdash\EMTypograph;
 
 class Mdash extends Facade
 {
