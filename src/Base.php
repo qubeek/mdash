@@ -774,4 +774,20 @@ class Base
             $this->do_setup($k, $v);
         }
     }
+    
+     /**
+     * Запустить типограф со стандартными параметрами
+     *
+     * @param string $text
+     * @param array $options
+     * @return string
+     */
+    
+    public static function fast_apply($text, $options = null)
+    {
+        $obj = new self();
+        if(is_array($options)) $obj->setup($options);
+        $obj->set_text($text);
+        return $obj->apply();
+    }
 }
