@@ -243,7 +243,7 @@ class EMTypograph extends Base
      * @param array $options
      * @return string
      */
-    public static function fast_apply($text, $options = null)
+    public static function format($text, $options = null)
     {
         $obj = new self();
         if (is_array($options)) {
