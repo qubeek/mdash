@@ -34,10 +34,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "qubeek\\mdash\\mdashServiceProvider"
+                "qubeek\\mdash\\MdashServiceProvider"
             ],
             "aliases": {
-                "mdash": "qubeek\\mdash\\Facades\\mdash"
+                "mdash": "qubeek\\mdash\\Facades\\Mdash"
             }
         }
     }
