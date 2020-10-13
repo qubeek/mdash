@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![StyleCI](https://github.styleci.io/repos/248169210/shield?branch=master)](https://github.styleci.io/repos/248169210)
 
 This package works based on the Muravyov typograph. It is intended for formatting text using the norms, rules, and specifics of the Russian language and screen typography.
 
